@@ -1,0 +1,17 @@
+{
+  "name": "property-password-reset-adr",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "demo": "node --experimental-strip-types src/password_reset_demo.ts",
+    "test": "node --experimental-strip-types --test src/password_reset_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
